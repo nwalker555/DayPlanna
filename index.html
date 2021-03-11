@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <title>Day Planner</title>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid" id>
+    <div class="container">
+      <h1 class="display-4">Your Day</h1>
+      <h2 class="display-4" id="date"></h2>
+      <p class="lead">“Amateurs sit and wait for inspiration, the rest of us just get up and go to work.” - Stephen King
+      </p>
+    </div>
+  </div>
+  <tbody id="planner">
+    <div class="row">
+      <div scope="row" class="hour col-md-1">
+        <h1>Hour</h1>
+      </div>
+      <div scope="row" class="hour col-md-10">
+        <h2>Schedule</h2>
+      </div>
+    </div>
+    <div class="row" id="9">
+      <div scope="row" class="hour col-md-1" >9 AM</div>
+      <textarea class="col-md-10 description nine" id="hour"></textarea>
+      <button class="btn btn-primary col-md-1" type="button" id="save">Save</button>
+    </div>
+    <div class="row" id="10">
+      <div scope="row" class="hour col-md-1" >10 AM</div>
+      <textarea class="col-md-10 description ten" id="hour"></textarea>
+      <button class="btn btn-primary col-md-1" type="button" id="save">Save</button>
+    </div>
+    <div class="row" id="11">
+      <div scope="row" class="hour col-md-1" >11 AM</div>
+      <textarea class="col-md-10 description eleven" id="hour"></textarea>
+      <button class="btn btn-primary col-md-1" type="button" id="save">Save</button>
+    </div>
+    <div class="row" id="12">
+      <div scope="row" class="hour col-md-1" >12 PM</div>
+      <textarea class="col-md-10 description twelve" id="hour"></textarea>
+      <button class="btn btn-primary col-md-1" type="button" id="save">Save</button>
+    </div>
+    <div class="row" id="1">
+      <div scope="row" class="hour col-md-1" >1 PM</div>
+      <textarea class="col-md-10 description one" id="hour"></textarea>
+      <button class="btn btn-primary col-md-1" type="button" id="save">Save</button>
+    </div>
+    <div class="row" id="2">
+      <div scope="row" class="hour col-md-1" >2 PM</div>
+      <textarea class="col-md-10 description two" id="hour"></textarea>
+      <button class="btn btn-primary col-md-1" type="button" id="save">Save</button>
+    </div>
+    <div class="row" id="3">
+      <div scope="row" class="hour col-md-1" >3 PM</div>
+      <textarea class="col-md-10 description three" id="hour"></textarea>
+      <button class="btn btn-primary col-md-1" type="button" id="save">Save</button>
+    </div>
+    <div class="row" id="4">
+      <div scope="row" class="hour col-md-1" >4 PM</div>
+      <textarea class="col-md-10 description four" id="hour"></textarea>
+      <button class="btn btn-primary col-md-1" type="button" id="save">Save</button>
+    </div>
+    <div class="row" id="5">
+      <div scope="row" class="hour col-md-1" >5 PM</div>
+      <textarea class="col-md-10 description five" id="hour"></textarea>
+      <button class="btn btn-primary col-md-1" type="button" id="save">Save</button>
+    </div>
+  </tbody>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
+<script src ="./dayplanner.js"></script>
+</html>

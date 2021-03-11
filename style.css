@@ -1,0 +1,27 @@
+.table {
+    width: 90%;
+    align-content: center;
+    padding-left: 10%;
+}
+
+.row {
+    width: 90%;
+    align-content: center;
+    padding-left: 10%;
+}
+
+#save {
+    margin-top: 20px;
+}
+
+.pasthour {
+    background-color: pink;
+}
+
+.futurehour {
+    background-color: greenyellow;
+}
+
+.description {
+    background-color: inherit;
+}
